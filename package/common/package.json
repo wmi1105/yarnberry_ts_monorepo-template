@@ -1,0 +1,9 @@
+{
+  "name": "@mono/common",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
