@@ -3,7 +3,8 @@
   "packageManager": "yarn@3.2.0",
   "scripts": {
     "common": "yarn workspace @mono/common",
-    "server": "yarn workspace @mono/server"
+    "server": "yarn workspace @mono/server",
+    "build_pkg": "yarn workspace @mono/server build; yarn workspace @mono/common build"
   },
   "devDependencies": {
     "typescript": "^4.6.3"
