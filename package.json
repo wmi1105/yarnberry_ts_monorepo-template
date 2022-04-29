@@ -4,7 +4,8 @@
   "scripts": {
     "common": "yarn workspace @mono/common",
     "server": "yarn workspace @mono/server",
-    "build_pkg": "yarn workspace @mono/server build; yarn workspace @mono/common build"
+    "app": "yarn workspace @mono/react_app",
+    "build_pkg": "yarn workspace @mono/server build; yarn workspace @mono/common build; yarn workspace @mono/react_app build"
   },
   "devDependencies": {
     "typescript": "^4.6.3"
