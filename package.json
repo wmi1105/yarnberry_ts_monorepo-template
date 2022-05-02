@@ -5,7 +5,7 @@
     "common": "yarn workspace @mono/common",
     "server": "yarn workspace @mono/server",
     "app": "yarn workspace @mono/react_app",
-    "build_pkg": "yarn workspace @mono/server build; yarn workspace @mono/common build; yarn workspace @mono/react_app build"
+    "build_pkg": "yarn workspaces foreach run build;"
   },
   "devDependencies": {
     "typescript": "^4.6.3"
